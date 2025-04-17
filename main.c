@@ -12,7 +12,7 @@ void mostrarEscolha(int escolha) {
 
 int verificarVencedor(int jogador, int maquina) {
     if (jogador == maquina)
-        return 0; // AMBOS
+        return 0; //empate
     else if ((jogador == 1 && maquina == 3) ||
              (jogador == 2 && maquina == 1) ||
              (jogador == 3 && maquina == 2))
